@@ -19,7 +19,7 @@ const About = () => {
     const doctors = doctorData?.doctors;
 
     let doctorContent = null;
-    if (!DoctorIsLoading && doctorIsError) doctorContent = <div>Something Went Wrong !</div>
+
     if (!DoctorIsLoading && !doctorIsError && doctors?.length === 0) doctorContent = <div><Empty /></div>
     if (!DoctorIsLoading && !doctorIsError && doctors?.length > 0) doctorContent =
         <>
@@ -63,15 +63,15 @@ const About = () => {
     return (
         <>
             <Header />
-            <SubHeader title="about us" subtitle="Lorem ipsum dolor sit amet consectetur adipisicing." />
+            <SubHeader title="about us" subtitle="Scheduling and appointment booking system for hospitals" />
             <div className="container" style={{ marginBottom: 100, marginTop: 100 }}>
                 <div className="row p-5">
                     <div className="col-lg-4">
                         <div className='section-title text-center'>
                             <h2 className='text-uppercase'>Our Doctors Acheivement</h2>
-                            <p className='form-text m-0'>Lorem ipsum dolor sit amet.</p>
+                            <p className='form-text m-0'>our doctors achivements are really great</p>
                         </div>
-                        <p className='mt-3'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, quod laborum alias. Vitae dolorum, officia sit! Saepe ullam facere at, consequatur incidunt, quae esse, quis ut reprehenderit dignissimos, libero delectus.</p>
+                        <p className='mt-3'>our doctors are great and they are dedicated and success rate is very high.</p>
                     </div>
 
                     <div className="col-lg-8">
@@ -86,13 +86,13 @@ const About = () => {
                     {content}
                 </div>
             </div>
-
+{/*
             <div className="container" style={{ marginBottom: 100, marginTop: 100 }}>
                 <div className="row align-items-center">
                     <div className="col-lg-4">
                         <div className='section-title text-center'>
-                            <h2 className='text-uppercase'>Our Doctors Acheivement</h2>
-                            <p className='form-text m-0'>Lorem ipsum dolor sit amet.</p>
+                            <h2 className='text-uppercase'>our doctors of Acheivement</h2>
+                            <p className='form-text m-0'>our doctors achivements are here</p>
                         </div>
                     </div>
                     <div className="col-lg-8">
@@ -110,13 +110,13 @@ const About = () => {
                     </div>
                 </div>
             </div>
-
+*/}
             <div className="container" style={{ marginBottom: 100, marginTop: 100 }}>
                 <div className="row justify-content-center">
                     <div className="col-lg-6">
                         <div className='mb-4 section-title text-center'>
-                            <h2 className='text-uppercase'>Meet Our Specialist</h2>
-                            <p className='form-text m-0'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, ipsum!</p>
+                            <h2 className='text-uppercase'>Our Specialists</h2>
+                            <p className='form-text m-0'>These are our specialists</p>
                         </div>
                     </div>
                 </div>
@@ -131,8 +131,8 @@ const About = () => {
                 <div className="row">
                     <div className="col-lg-6 offset-lg-6">
                         <div className='mb-4 section-title text-center'>
-                            <h2 className='text-uppercase'>What Doctor's Say</h2>
-                            <p className='form-text m-0'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, ipsum!</p>
+                            <h2 className='text-uppercase'>Our Doctor's words</h2>
+                            <p className='form-text m-0'>we provide best medical care</p>
                         </div>
                     </div>
                 </div>
@@ -141,10 +141,10 @@ const About = () => {
                     <div className="col-lg-6 offset-lg-6">
                         <div className="my-2">
                             <h4 style={{ color: '#223a66' }} className='my-0'>Amazing service!</h4>
-                            <span>John Partho</span>
+                            <span>Jacc</span>
                         </div>
                         <p className='form-text'>
-                            They provide great service facilty consectetur adipisicing elit. Itaque rem, praesentium, iure, ipsum magnam deleniti a vel eos adipisci suscipit fugit placeat. Quibusdam laboriosam eveniet nostrum nemo commodi numquam quod.
+                            great service by this website 
                         </p>
                     </div>
                 </div>
