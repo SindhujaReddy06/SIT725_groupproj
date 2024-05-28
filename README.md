@@ -120,8 +120,6 @@ Note: Please note that these are general instructions for setting up an Express 
 - **TypeScript:** A superset of JavaScript that adds static typing, enhancing code quality and maintainability.
 - **Prisma**: A modern database toolkit for Node.js and TypeScript, used for database access and management.
 
- ## Project Screenshot
-![DoctorOnCall OverView](https://github.com/Ujjalzaman/Doctor-Appointment/assets/49386888/eeed56ce-3d9a-464d-91e5-588ea81ec5c0)
 
 ## Contributing:
 
