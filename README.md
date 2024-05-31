@@ -29,17 +29,16 @@ To begin using the DocConnect System, follow given beow steps:
 ### Prerequisites
 Before getting started with the DocConnect System, ensure that you have the following prerequisites installed and set up:
 * Install Node.js (globally)
-  ```sh
+
   npm install npm@latest -g
-  ```
 * Prisma CLI: If you're planning to work on the backend part, you'll need to have Prisma CLI installed globally. You can install it using npm:
-  ```sh
+
    npm install -g prisma
-  ```
+
 * TypeScript (optional): TypeScript is used in the backend, ensure that you have TypeScript installed globally. You can install it using npm:
-  ```sh
+
    npm install -g typescript
-  ```
+
 
 ## Installation
 To begin using the DoctorOnCall System, follow these simple steps:
