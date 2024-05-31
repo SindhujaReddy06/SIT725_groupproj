@@ -1,41 +1,23 @@
 #Scheduling And Appointment booking system for hospitals
 
-## About The Project
-Overview: The Hospital Appointment Booking System aims to streamline the process of scheduling appointments for patients at hospitals. It aims to offer a convenient solution for patients to book appointments with doctors, specialists, and other healthcare professionals.
+The goal of this project is to enhance the patient experience by reducing waiting times in queue to book appointments, minimizing administrative tasks, and ensuring efficient allocation of medical resources. In this system,  patients register, then log in, and schedule appointments . Patients can also view their appointment history in the dashboard.
 
-Goal: The goal is to enhance the patient experience by reducing wait times, minimizing administrative tasks, and ensuring efficient allocation of medical resources. 
-
-Target audience: Patients, healthcare providers like doctors, specialists, nurses, and hospital administrators.
-
-Within this system, allows patients to register, log in, and schedule appointments with healthcare providers according to their availability. Patients can also access their appointment history, receive reminders, and cancel or reschedule appointments if necessary. Healthcare providers have access to a dashboard where they can manage their schedules, view patient appointments, and update availability. 
-
-
-## What Features Will You Find Here:
- - Dynamic Homepage: Conveniently gathers essential information on a single page.
- - Easy Appointment Setup: Seamlessly schedule appointments with doctors, featuring selectable available dates and time ranges.
- - Dynamic Appointment Management: Flexible time and date range selection for appointments.
- - Doctor Selection: Patients can choose their preferred doctor for appointments.
- - Industry-standard Code Quality: Utilization of top-notch code conventions, code splitting, and TypeScript in backend development.
- - Email Notifications: Automated email notifications for appointment setup and invoicing.
- - Doctor Dashboard: Dynamic dashboard for doctors to access patient information and provide online treatment with customizable prescriptions.
- - Patient Dashboard: Patients can track their treatment progress, view medications, prescriptions, and appointment details from a dynamic dashboard.
- - Appointment Tracking: Track appointment status using a unique tracking ID directly from the homepage.
- - User Authentication: Dynamic authentication system allowing user sign-in, sign-up, password recovery, and email verification (for doctors).
+Features: Dynamic Homepage, Easy Appointment Setup, Dynamic Appointment Management, Doctor Selection, Industry-standard Code Quality, Email Notifications, Doctor Dashboard, Patient Dashboard, Appointment Tracking, User Authentication
  
 <!-- GETTING STARTED -->
 ## Getting Started
-To begin using the DocConnect System, follow given beow steps:
+To begin using the DocConnect System, follow given below steps:
 
 ### Prerequisites
-Before getting started with the DocConnect System, ensure that you have the following prerequisites installed and set up:
+Before getting started with the DocConnect System, install and set up:
 * Install Node.js (globally)
 
   npm install npm@latest -g
-* Prisma CLI: If you're planning to work on the backend part, you'll need to have Prisma CLI installed globally. You can install it using npm:
+* Prisma CLI:
 
    npm install -g prisma
 
-* TypeScript (optional): TypeScript is used in the backend, ensure that you have TypeScript installed globally. You can install it using npm:
+* TypeScript
 
    npm install -g typescript
 
@@ -83,19 +65,19 @@ cd api
 ### Start Backend
 npm run dev
 
-#### What Technology Are Using In This Project
+Technologies Used In This Project
 
-**Frontend Technology Stack:** 
-- **React**: A JavaScript library for building user interfaces, offering a component-based architecture for creating interactive UIs.
-- **Redux Toolkit:** A state management library for React applications, providing predictable state management with a single source of truth.
-- **Ant Design:** A UI library for React applications, offering a set of customizable and pre-designed components.
-- **React Hook Form:** A library for managing form state and validation in React applications, providing a simple and intuitive API.
-- **Axios**: A promise-based HTTP client for making HTTP requests, used for interacting with backend APIs.
+Frontend Technology Stack: 
+- React: A JavaScript library for building user interfaces, offering a component-based architecture for creating interactive UIs.
+- Redux Toolkit: A state management library for React applications, providing predictable state management with a single source of truth.
+- Ant Design: A UI library for React applications, offering a set of customizable and pre-designed components.
+- React Hook Form: A library for managing form state and validation in React applications, providing a simple and intuitive API.
+- Axios: A promise-based HTTP client for making HTTP requests, used for interacting with backend APIs.
 
-**Back-End:** 
-- **Express.js:** A web application framework for Node.js, used for building robust APIs and web applications
-- **TypeScript:** A superset of JavaScript that adds static typing, enhancing code quality and maintainability.
-- **Prisma**: A modern database toolkit for Node.js and TypeScript, used for database access and management.
+Back-End:
+- Express.js: A web application framework for Node.js, used for building robust APIs and web applications
+- TypeScript: A superset of JavaScript that adds static typing, enhancing code quality and maintainability.
+- Prisma: A modern database toolkit for Node.js and TypeScript, used for database access and management.
 
 
 
