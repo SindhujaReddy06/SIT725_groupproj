@@ -1,8 +1,14 @@
 #Shceduling And Appointment booking system for hospitals
 
 ## About The Project
-The `DocConnect` System facilitates patients in scheduling appointments with preferred doctors or Emergency Appointments set up via an online platform.
-Developed using the React, Nodejs, and Prisma stack, it offers a professional website with dynamic functionalities. Key features include dynamic home, Email Notification, Filtering doctors, Setting up appointments and patients/doctors dashboards, secure user login with validation mechanisms, appointment scheduling with access to doctor details, patient appointment management, doctor selection, and overall industries level code splitting followed.
+Overview: The Hospital Appointment Booking System aims to streamline the process of scheduling appointments for patients at hospitals. It aims to offer a convenient solution for patients to book appointments with doctors, specialists, and other healthcare professionals.
+
+Goal: The goal is to enhance the patient experience by reducing wait times, minimizing administrative tasks, and ensuring efficient allocation of medical resources. 
+
+Target audience: Patients, healthcare providers like doctors, specialists, nurses, and hospital administrators.
+
+Within this system, allows patients to register, log in, and schedule appointments with healthcare providers according to their availability. Patients can also access their appointment history, receive reminders, and cancel or reschedule appointments if necessary. Healthcare providers have access to a dashboard where they can manage their schedules, view patient appointments, and update availability. 
+
 
 ## What Features Will You Find Here:
  - Dynamic Homepage: Conveniently gathers essential information on a single page.
@@ -15,15 +21,13 @@ Developed using the React, Nodejs, and Prisma stack, it offers a professional we
  - Patient Dashboard: Patients can track their treatment progress, view medications, prescriptions, and appointment details from a dynamic dashboard.
  - Appointment Tracking: Track appointment status using a unique tracking ID directly from the homepage.
  - User Authentication: Dynamic authentication system allowing user sign-in, sign-up, password recovery, and email verification (for doctors).
- - Dynamic Doctor Filtering: Advanced filtering options for doctors and appointment scheduling, along with blogging and service features.
- - Ongoing Development: Continued enhancements with an evolving admin system.
- - 
+ 
 <!-- GETTING STARTED -->
 ## Getting Started
-To begin using the DocConnect System, follow these simple steps:
+To begin using the DocConnect System, follow given beow steps:
 
 ### Prerequisites
-Before getting started with the DoctorOnCall System, ensure that you have the following prerequisites installed and set up:
+Before getting started with the DocConnect System, ensure that you have the following prerequisites installed and set up:
 * Install Node.js (globally)
   ```sh
   npm install npm@latest -g
@@ -79,10 +83,6 @@ cd api
 
 ### Start Backend
 npm run dev
-
-
-
- This system offers a comprehensive and dynamic platform for managing doctor appointments, treatments, and patient interactions while maintaining high standards of code quality and user experience.
 
 #### What Technology Are Using In This Project
 
