@@ -41,11 +41,6 @@ Before getting started with the DoctorOnCall System, ensure that you have the fo
 To begin using the DoctorOnCall System, follow these simple steps:
 ### The front-end and Backend code are in the same directory, with the Backend API located at the ./api directory
 
-```
-# Setup Documentation
-
-## Clone The Project
-git clone https://github.com/Ujjalzaman/Doctor-Appointment.git
 
 ### Install Frontend
 cd Doctor-Appointment
