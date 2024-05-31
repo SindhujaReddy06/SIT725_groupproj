@@ -1,4 +1,4 @@
-#Shceduling And Appointment booking system for hospitals
+#Scheduling And Appointment booking system for hospitals
 
 ## About The Project
 Overview: The Hospital Appointment Booking System aims to streamline the process of scheduling appointments for patients at hospitals. It aims to offer a convenient solution for patients to book appointments with doctors, specialists, and other healthcare professionals.
